@@ -7,7 +7,7 @@
     },
     "location": {
       "type": "string",
-      "allowedValues": [
+      "defaultValue": [
         "westeurope"
       ]
     },
