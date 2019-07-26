@@ -11,18 +11,16 @@
     },
     "addressPrefix": {
       "type": "string",
-      "allowedValues": [
-        "10.0.0.0/16"
-      ]
+      "allowedValues": 
+        ["10.0.0.0/16"]
     },
     "subnetName": {
       "value": "default"
     },
     "subnetAddressPrefix": {
       "type": "string",
-      "allowedValues": [
-        "10.0.0.0/16"
-      ]
+      "allowedValues": 
+        ["10.0.0.0/16"]
     },
     "enableDdosProtection": {
       "type": "bool"
