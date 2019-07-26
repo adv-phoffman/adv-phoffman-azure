@@ -16,7 +16,7 @@
       "type": "string"
     },
     "subnetName": {
-      "type": "string"
+      "value": "default"
     },
     "subnetAddressPrefix": {
       "type": "string"
