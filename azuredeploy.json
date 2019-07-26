@@ -7,7 +7,7 @@
     },
     "location": {
       "type": "string",
-      "value": "westeurope"
+      "defaultvalue": "westeurope"
     },
     "addressPrefix": {
       "type": "string"
