@@ -5,6 +5,13 @@
     "name": {
       "type": "string"
     },
+    "location": {
+      "type": "string",
+      "defaultValue": "westeurope",
+      "allowdValues": [
+        "westeurope"
+      ],
+    },
     "addressPrefix": {
       "type": "string"
     },
@@ -23,7 +30,7 @@
       "apiVersion": "2019-04-01",
       "name": "[parameters('name')]",
       "type": "Microsoft.Network/virtualNetworks",
-      "location": "westeurope",
+      "location": "[parameters('location')]",
       "properties": {
         "addressSpace": {
           "addressPrefixes": [
