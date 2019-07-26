@@ -21,9 +21,6 @@
       "type": "string",
       "allowedValues": 
         ["10.10.90.128/25"]
-    },
-    "enableDdosProtection": {
-      "type": "bool"
     }
   },
   "resources": [
