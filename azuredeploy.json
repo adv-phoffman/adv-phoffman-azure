@@ -19,7 +19,9 @@
       "value": "default"
     },
     "subnetAddressPrefix": {
-      "type": "string"
+      "type": "string",
+      "allowedValues": [
+        "10.0.0.0/16"
     },
     "enableDdosProtection": {
       "type": "bool"
