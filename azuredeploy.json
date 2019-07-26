@@ -6,8 +6,9 @@
       "type": "string"
     },
     "location": {
-      "type": "string"
-    },
+      "type": "string",
+      "defaultValue": "westeurope"
+    }
     "addressPrefix": {
       "type": "string"
     },
@@ -41,8 +42,7 @@
               "addressPrefixes": []
             }
           }
-        ],
-        "enableDdosProtection": "[parameters('enableDdosProtection')]"
+        ]
       }
     }
   ]
