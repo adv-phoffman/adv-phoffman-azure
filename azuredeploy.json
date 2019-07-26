@@ -12,7 +12,7 @@
     "addressPrefix": {
       "type": "string",
       "allowedValues": 
-        ["10.0.0.0/16"]
+        ["10.10.90.0/24"]
     },
     "subnetName": {
       "value": "default"
@@ -20,7 +20,7 @@
     "subnetAddressPrefix": {
       "type": "string",
       "allowedValues": 
-        ["10.0.0.0/16"]
+        ["10.10.90.128/25"]
     },
     "enableDdosProtection": {
       "type": "bool"
